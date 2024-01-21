@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" href="images/qoutelogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="credit">
+        <h5><a href="https://github.com/anandhunv">&copy;anandhu.n.v</a></h5>
+      </div>
+    <div class="quote-box">
+        <h2>Quote of the day</h2>
+        <blockquote id="qoute">Loading...</blockquote>
+        <span id="author"> Loading...</span>
+
+
+        <div>
+            <button onclick="getqoute(api_url);">New Quote</button>
+            <button onclick="tweet()"><img src="images/x.png" alt="Twitter">Tweet</button>
+        </div>
+
+
+    </div>
+    
+
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
